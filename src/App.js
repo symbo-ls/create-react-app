@@ -5,7 +5,7 @@ import { Box, SymbolsProvider, useGlobalTheme, useGlobalState } from '@symbo.ls/
 function App() {
   return (
     <SymbolsProvider>
-      <Box theme={`document`}>
+      <Box theme="document">
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
